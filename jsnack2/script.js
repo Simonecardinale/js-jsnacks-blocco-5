@@ -51,9 +51,13 @@ var zucchine = [
     },
 ];
 
+for(var j = 0; j < zucchine.length; j++) {
+    console.log(zucchine[j].peso);
+}
+
 var somma = 0;
 for (var i = 0; i < zucchine.length; i++){
     somma += zucchine[i].peso;
 }
 
-console.log(somma);
+console.log("la somma dei pesi è " + somma);

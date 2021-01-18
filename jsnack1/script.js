@@ -3,7 +3,7 @@ var palla = {
     peso: 10
 };
 
-console.log(palla);
+console.log(palla.peso);
 
 var utente = parseInt(prompt("Inserisci il nuovo peso della palla"));
 palla.peso = utente

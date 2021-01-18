@@ -51,6 +51,8 @@ var zucchine = [
     },
 ];
 
+console.log(zucchine);
+
 
 var zucchinePiccole = [];
 var zucchineGrandi = [];
